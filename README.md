@@ -319,6 +319,8 @@ Discount Porcentaje de descuento [0-100] el cual es obtenido de
 algún servicio externo basado en el ProductId. Este
 servicio puede ser https://mockapi.io/ u otro.
 
+Servicio API creado en mockapi: https://66d1ef6262816af9a4f555e4.mockapi.io/api/techdotnet/Products
+
 FinalPrice Price * (100 - Discount) / 100
 ... Otros campos definidos por el candidato
 
