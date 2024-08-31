@@ -1,0 +1,6 @@
+@rdt_ms_template_netcore_ca_HostAddress = http://localhost:5072
+
+GET {{rdt_ms_template_netcore_ca_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
