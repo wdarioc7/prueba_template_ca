@@ -1,5 +1,7 @@
 # PRUEBA TECNICA TEMPLATE 
 
+AUTOR:Dario Campaña Diaz
+
 1. Requisitos
 
 Este challenge debe contener lo siguiente:
