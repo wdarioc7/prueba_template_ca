@@ -1,4 +1,4 @@
-# PRUEBA TECNICA TEMPLATE TEKTON
+# PRUEBA TECNICA TEMPLATE 
 
 AUTOR:Dario Campaña Diaz
 
@@ -48,7 +48,7 @@ considerar los HTTP Status Codes en cada petición realizada.
 
 respuesta: se implementa en el program el servicio healthcheack de verificacion
 
-1.7. Estructurar el proyecto en N-capas.
+1.7. Proyecto estructurado en Clean Architecture.
 
 ![ARK](https://i.postimg.cc/rsMf6gbK/Captura-de-pantalla-2024-08-31-171232.png)
 
@@ -315,13 +315,11 @@ Stock
 Description
 Price
 
-Discount Porcentaje de descuento [0-100] el cual es obtenido de
-algún servicio externo basado en el ProductId. Este
-servicio puede ser https://mockapi.io/ u otro.
+
 
 Servicio API creado en mockapi: https://66d1ef6262816af9a4f555e4.mockapi.io/api/techdotnet/Products
 
 FinalPrice Price * (100 - Discount) / 100
-... Otros campos definidos por el candidato
+
 
 Respuesta: Solucionado en el metodo GetByIdAsync en el repository en la capa de infraestructura
